@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "kr.levelsync.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BattleManagerMixin",
+    "PlayerBattleActorMixin",
+    "PokemonBattleMixin",
+    "PokemonMixin",
+    "TrainerMobMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
